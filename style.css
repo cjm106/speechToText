@@ -7,12 +7,13 @@ body {
 
 button:focus {
     outline: 0;
+
 }
 
 .mycontainer {
     max-width: 500px;
     margin: 0 auto;
-    padding: 100px 100px;
+    /* padding: 100px 100px; */
     text-align: center;
 }
 
@@ -23,7 +24,7 @@ button:focus {
 
 #textbox {
     margin: 30px 0;
-    width: 500px
+    width: 100%
 }
 
 @media (max-width: 768px) {
@@ -34,5 +35,6 @@ button:focus {
 
     button {
         margin-bottom: 10px;
+          width: 40%
 }
 }
